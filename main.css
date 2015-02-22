@@ -1,7 +1,37 @@
-body {
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	font-family: "Monthoers", Helvetica, Arial;
+	background-color: rgba(255, 0, 128, 0.55);
+}
+
+@font-face {
+  font-family: 'Monthoers';
+  src: url('fonts/Monthoers.otf') format('otf'),
+       url('fonts/Monthoers.ttf') format('truetype');
+}
+
+.container {
+	height: 100%;
 	display: flex;
 }
 
 .contact-placeholder {
 	margin: auto;
+	font-size: 1.5em;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 1.1em;
 }
