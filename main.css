@@ -5,7 +5,7 @@ html, body {
 	text-align: center;
 
 	font-family: 'mayqueen', Arial;
-	background-color: rgba(255, 0, 128, 0.4);
+	background-color: rgb(255, 0, 128);
 }
 
 @font-face {
