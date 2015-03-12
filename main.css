@@ -45,4 +45,8 @@ a:hover {
 		margin: 20px 0;
 		line-height: .75em;
 	}
+
+	.contact-info p {
+		margin: 10px;
+	}
 }
