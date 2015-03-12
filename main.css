@@ -42,25 +42,7 @@ a:hover {
 	}
 
 	.title {
-		margin: 40px 0 20px 0;
+		margin: 20px 0;
 		line-height: .75em;
 	}
-
-	/*.contact-info p {
-		padding: 10px;
-	}*/
 }
-
-/*@media screen and (max-width: 330px) {
-	.contact-placeholder {
-		margin: 0 auto;
-	}
-
-	.title {
-		margin: 10px;
-	}
-
-	.contact-info p {
-		margin: 20px;
-	}
-}*/
