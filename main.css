@@ -40,9 +40,17 @@ a:hover {
 	body {
 		font-size: 3em;
 	}
+
+	.title {
+		margin: 10px;
+	}
+
+	.contact-info p {
+		margin: 20px;
+	}
 }
 
-@media screen and (max-width: 330px) {
+/*@media screen and (max-width: 330px) {
 	.contact-placeholder {
 		margin: 0 auto;
 	}
@@ -54,4 +62,4 @@ a:hover {
 	.contact-info p {
 		margin: 20px;
 	}
-}
+}*/
