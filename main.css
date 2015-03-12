@@ -32,6 +32,12 @@ a:hover {
 	font-size: 1.1em;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body {
+		font-size: 3em;
+	}
+}
+
 @media screen and (max-width: 330px) {
 	.contact-placeholder {
 		margin: 0 auto;
