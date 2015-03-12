@@ -41,6 +41,10 @@ a:hover {
 		font-size: 3em;
 	}
 
+	.contact-placeholder {
+		margin-top: 50px;
+	}
+
 	.title {
 		margin: 20px 0;
 		line-height: .75em;
