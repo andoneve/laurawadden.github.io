@@ -42,12 +42,12 @@ a:hover {
 	}
 
 	.title {
-		margin: 0 20px;
+		margin: 20px 0;
 		line-height: .75em;
 	}
 
 	.contact-info p {
-		padding: 20px;
+		padding: 10px;
 	}
 }
 
