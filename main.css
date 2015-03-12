@@ -42,13 +42,13 @@ a:hover {
 	}
 
 	.title {
-		margin: 20px 0;
+		margin: 40px 0 20px 0;
 		line-height: .75em;
 	}
 
-	.contact-info p {
+	/*.contact-info p {
 		padding: 10px;
-	}
+	}*/
 }
 
 /*@media screen and (max-width: 330px) {
