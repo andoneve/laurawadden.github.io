@@ -43,6 +43,7 @@ a:hover {
 
 	.title {
 		margin: 10px;
+		line-height: .6em;
 	}
 
 	.contact-info p {
