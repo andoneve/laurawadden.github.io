@@ -1,0 +1,13 @@
+#preview {
+  padding: 9em 24em; }
+  @media (max-width: 1200px) {
+    #preview {
+      padding: 8em; } }
+  @media (max-width: 1000px) {
+    #preview {
+      padding: 4em; } }
+  @media (max-width: 600px) {
+    #preview {
+      padding: 1em; } }
+
+/*# sourceMappingURL=blogs.css.map */
