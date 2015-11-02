@@ -5,16 +5,11 @@ app.use(express.static('public'));
 app.use(express.static('public/pages'));
 
 app.get('/', function (req, res) {
-  res.redirect('/index.html');
+  res.sendFile('index.html');
 });
 
 app.get('/tor-hidden-services-for-beginners', function (req, res) {
-  res.redirect('/tor-hidden-services-for-beginners.html');
+  res.sendFile('/tor-hidden-services-for-beginners.html');
 });
 
-var server = app.listen(3000, function () {
-  var host = server.address().address;
-  var port = server.address().port;
-
-  console.log('Example app listening at http://%s:%s', host, port);
-});
+app.listen(3000);
