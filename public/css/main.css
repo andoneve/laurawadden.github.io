@@ -8,7 +8,7 @@ html, body {
 
 @font-face {
   font-family: 'mayqueen';
-  src: url("/fonts/mayqueen.ttf") format("truetype"); }
+  src: url("/public/fonts/mayqueen.ttf") format("truetype"); }
 .container {
   height: 100%;
   display: flex; }
