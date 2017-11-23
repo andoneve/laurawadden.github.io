@@ -223,6 +223,14 @@ First create a directory where the information about our hidden service will liv
 /Users/username/tor/hidden_service
 ```
 
+Because Tor uses this directory to store sensitive information, Tor requires that you set more restrictive permissions on it. Each file on your computer has certain permissions set, so that you (and your operating system) can control who can read, write and execute certain files. This is very important because it helps guard against outside actors (or even well-intentioned software!) from running or editing things that shouldn't be run or edited. For more about permissions, [try this guide](http://www.thegeekstuff.com/2010/04/unix-file-and-directory-permissions/) (this is for Linux, but is a good explanation of what the below command does).
+
+Set the proper permissions (if you use a different directory, make sure to edit the command below):
+
+```
+chmod 700 /Users/username/tor/hidden_service
+```
+
 Open and find the **torrc** file that you created before. As a reminder, it's probably located in:
 
 ```
